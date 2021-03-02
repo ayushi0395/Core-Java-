@@ -75,6 +75,50 @@ JButton b =(JButton)e.getSource();
     }
 
 
+if(
+(b[0].getLabel()=="0" && b[1].getLabel()=="0" && b[2].getLabel()=="0")
+  ||
+(b[3].getLabel()=="0" && b[3].getLabel()=="0" && b[6].getLabel()=="0")
+||
+(b[6].getLabel()=="0" && b[4].getLabel()=="0" && b[8].getLabel()=="0")
+  ||
+(b[2].getLabel()=="0" && b[4].getLabel()=="0" && b[6].getLabel()=="0")
+||
+(b[0].getLabel()=="0" && b[4].getLabel()=="0" && b[7].getLabel()=="0")
+  ||
+(b[1].getLabel()=="0" && b[5].getLabel()=="0" && b[8].getLabel()=="0")
+||
+(b[6].getLabel()=="0" && b[4].getLabel()=="0" && b[5].getLabel()=="0")
+  ||
+(b[6].getLabel()=="0" && b[7].getLabel()=="0" && b[8].getLabel()=="0")
+)
+{
+    System.out.println("player one is winner");
+    
+}
+else if(
+(b[0].getLabel()=="0" && b[1].getLabel()=="0" && b[2].getLabel()=="0")
+  ||
+(b[3].getLabel()=="0" && b[3].getLabel()=="0" && b[6].getLabel()=="0")
+||
+(b[6].getLabel()=="0" && b[4].getLabel()=="0" && b[8].getLabel()=="0")
+  ||
+(b[2].getLabel()=="0" && b[4].getLabel()=="0" && b[6].getLabel()=="0")
+||
+(b[0].getLabel()=="0" && b[4].getLabel()=="0" && b[7].getLabel()=="0")
+  ||
+(b[1].getLabel()=="0" && b[5].getLabel()=="0" && b[8].getLabel()=="0")
+||
+(b[6].getLabel()=="0" && b[4].getLabel()=="0" && b[5].getLabel()=="0")
+  ||
+(b[6].getLabel()=="0" && b[7].getLabel()=="0" && b[8].getLabel()=="0")
+)
+    {
+    System.out.println("player two is winner");
+    
+    }
+}
+
 }
 class tictac
 {
