@@ -13,36 +13,36 @@ class FDemo extends JFrame implements ActionListener
        Font f=new Font("",Font.BOLD,100);
        setFont(f);
 
-   b1 =  new JButton();
+   b1 =  new Button();
          b1.setSize(100,100);
          add(b1);
 
-            b2=new JButton();
+            b2=new Button();
        b2.setSize(100,100);
        add(b2);
 
-       b3 =new JButton();
+       b3 =new Button();
        b3.setSize(100,100);
    add(b3);
 
-        b4=new JButton();
+        b4=new Button();
      b4.setSize(100,100);
     add(b4);
 
-        b5=new JButton();
+        b5=new Button();
      b5.setSize(100,100);
    add(b5);
 
-        b6=new JButton();
+        b6=new Button();
   add(b6);
 
-        b7=new JButton();
+        b7=new Button();
    add(b7);
 
-      b8=new JButton();
+      b8=new Button();
     add(b8);
 
-         b9=new JButton();
+         b9=new Button();
     add(b9);
 
   b1.addActionListener(this);
