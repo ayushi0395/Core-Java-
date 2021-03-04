@@ -30,7 +30,7 @@ class FDemo extends JFrame implements ActionListener
     add(b4);
 
         b5=new Button();
-     b5.setSize(100,100);
+   //  b5.setSize(100,100);
    add(b5);
 
         b6=new Button();
@@ -74,7 +74,7 @@ JButton b =(JButton)e.getSource();
        c++;
     }
 
-
+//condition for checking winner one  :
 if(
 (b[0].getLabel()=="0" && b[1].getLabel()=="0" && b[2].getLabel()=="0")
   ||
@@ -96,6 +96,7 @@ if(
     System.out.println("player one is winner");
     
 }
+//condition for checking winner two :
 else if(
 (b[0].getLabel()=="0" && b[1].getLabel()=="0" && b[2].getLabel()=="0")
   ||
